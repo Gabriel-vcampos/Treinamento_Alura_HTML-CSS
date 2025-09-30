@@ -1,0 +1,41 @@
+*{
+    box-sizing: content-box;
+}
+
+body{
+    background-color: #000;
+    color: white;
+    width: 100%;
+    margin: 0;
+    height: auto;
+    box-sizing: content-box;
+}
+#conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+.imagem{
+    width: 500px;
+    height: 400px;
+}
+#conteudo_direita{
+    display: flex;
+    flex-direction: column;
+}
+.area-botao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+}
+
+.links{
+    text-align: center;
+    text-decoration: none;
+    color:#000;
+    background-color: #22D4FD;
+    padding:16px;
+    border-radius: 16px;
+}
